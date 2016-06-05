@@ -1,0 +1,299 @@
+
+<html>
+
+	<head>
+	
+		<title>
+		</title>
+		<title>Realizar Pedido</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="scripts.js">
+		</script>
+	</head>
+	<body>
+	<?php include 'cnx.php';   ?>
+		<div style="width:150px;height:150px;overflow:visible">
+			<form method="POST" action="">
+<table cellspacing="0">
+	<tr>
+	<td>Pedido</td>
+	<td><input type="text" id="txtpc" name="txtpc"></td>
+	</tr>
+
+	<tr>
+	<td>Escuelas</td>
+	<td>
+	<?php
+
+	$select = '-';
+	$res = mysql_query("select * from clientes order by nume");
+	if (mysql_num_rows($res)) {
+		$select = '<select id="selND" name="selND" style="width:400px">';
+		$select .= '<option value=0 selected style="width:150px">Escuelas</option>';
+
+		while ($row = mysql_fetch_array($res))
+			$select .= "<option value='$row[nume]'>$row[nume]</option>";
+
+		$select .= '</select>';
+	}
+
+	echo $select;
+
+	?>
+	</td>
+			<table>
+				<tr>
+					<td colspan="3" class="alienadoCentro titulo">
+						Remito Temporal
+					</td>
+				</tr>
+				<tr class="alienadoCentro">
+					<td>
+						Descripción
+					</td>
+					<td>
+						Cantidad (
+						<span style="color:red">
+							unidades
+						</span>
+						)
+					</td>
+					<td>
+						Precio Unitario
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_1" onblur="calcularTotales(1)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_1" onblur="calcularTotales(1)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_1" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_2" onblur="calcularTotales(2)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_2" onblur="calcularTotales(2)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_2" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(3)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(3)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_3" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(4)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(4)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_4" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(5)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(5)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_5" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(6)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(6)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_6" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(7)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(7)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_7" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(8)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(8)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_8" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(9)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(9)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_9" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(10)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(10)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_10" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(11)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(11)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_11" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(12)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(12)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_12" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(13)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(13)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_13" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(14)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(14)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_14" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(15)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(15)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_15" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" />
+					</td>
+					<td>
+						<input type="text" id="txtCantidad_3" onblur="calcularTotales(16)" />
+					</td>
+					<td>
+						<input type="text" id="txtPrecio_3" onblur="calcularTotales(16)" />
+					</td>
+					<td>
+						<input type="text" disabled="disabled" id="txtTotalLinea_16" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					</td>
+					<td>
+						<input type="text" id="txtTotal" disabled="disabled"/>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+.alienadoCentro {text-align:center}
+.titulo{font-weight:bolder; font-style:oblique;}
+.resaltado{
+	color:red;
+}
+
+/* Textos */
+[type='text']{background-color:#fafcad;}
+[type='text']:focus{background-color:#f5f3a5;}
+
+/* Botón Calcular */
+#btnCalcular{background-color:#c0c0c0;}
+#btnCalcular:hover{background-color:#808080;}

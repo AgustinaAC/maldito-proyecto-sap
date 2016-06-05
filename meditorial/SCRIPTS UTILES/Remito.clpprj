@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\Remito.clpprj">
+	<settings><PM_URL><![CDATA[C:\Program Files (Portable)\_Instituto\CodelobsterPHPEdition\Ejercicios\Programación 3\Remito]]></PM_URL><PM_HOME_URL><![CDATA[C:\Program Files (Portable)\_Instituto\CodelobsterPHPEdition\Ejercicios\Programación 3\Remito]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><errors version="4.5">
+	</errors>
+	<codestructure version="4.6">
+		<phptree>
+		</phptree>
+		<jstree>
+			<treenode node="Calcular;JS:Function Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f0;8;3;29;;;;vpos;;v;;r;;d22,8;;b0,0;;m">
+				<treenode node="cantNeg;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f20;9;27;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="cantPos;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f7;9;14;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="cantTotal;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f49;9;58;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="cantVacios;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f33;9;43;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f23;12;31;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="i;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f11;11;12;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="suma;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f64;9;68;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="valor;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\form.html;f7;10;12;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="calcularTotales;JS:Function Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f0;0;1;39;;;;vpos;;v;;r;;d35,0;;b0,0;;mnroLinea;;p">
+				<treenode node="cantidad;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f5;10;13;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ctCantidad;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f5;2;15;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ctPrecioUnitario;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f17;2;33;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ctTotal;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f35;2;42;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ctTotalFinal;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f19;30;31;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ctTotalLinea;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f5;30;17;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f14;3;22;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="i;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f9;32;10;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="nroLinea;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f25;0;33;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="precioUnitario;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f15;10;29;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="totalAcumulado;JS:JS Var Name;C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js;f5;31;19;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+		</jstree>
+	</codestructure><cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><smartyassings>
+	</smartyassings><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\scripts.js" crc="412567847"/>
+		<file name="C:\Users\Gilda\Documents\Agustina\terciario\Ejercicios Prog III\Programación 3\Remito\estilos.css" crc="558981968"/>
+	</filescache>
+</project>

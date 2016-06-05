@@ -1,0 +1,45 @@
+.arriba {height:70px; width:1890; background-color:black;}
+.medio{width:1590px; height:950px;}
+.formulario{height:965px;width:1400; overflow:scroll;}
+td {background-color:white;}
+.fondo2 {width:300px; height:973px; background-color:grey;float:left;}
+
+.button {
+   display: -moz-inline-stack;
+   display: inline-block;
+   width: 1032px;
+   height: 38px;
+   background: url("http://dabuttonfactory.com/b.png?t=DESLOGUEAR%20Y%20SALIR&f=Komika-Bold&ts=25&tc=fcfdff00&it=png&c=0&bgt=unicolored&bgc=9c9494&be=on&hp=400&vp=10") no-repeat;
+   line-height: 38px;
+   vertical-align: text-middle;
+   text-align: center;
+   color: #fcfdff;
+   font-family: Lubalin Graph;
+   font-size: 25px;
+   font-weight: bold;
+   font-style: normal;
+   text-shadow: none;
+}
+.button > span {
+   display: -moz-inline-block;
+}
+
+.button2  {
+   display: -moz-inline-stack;
+   display: inline-block;
+   width: 900px;
+   height: 38px;
+   background: url("http://dabuttonfactory.com/b.png?t=DESLOGUEAR%20Y%20SALIR&f=Komika-Bold&ts=25&tc=fcfdff00&it=png&c=0&bgt=unicolored&bgc=f20c0c&be=on&hp=400&vp=10") no-repeat;
+   line-height: 38px;
+   vertical-align: text-middle;
+   text-align: center;
+   color: #fcfdff;
+   font-family: Lubalin Graph;
+   font-size: 25px;
+   font-weight: bold;
+   font-style: normal;
+   text-shadow: none;
+}
+.button2 > span {
+   display: -moz-inline-block;
+}
