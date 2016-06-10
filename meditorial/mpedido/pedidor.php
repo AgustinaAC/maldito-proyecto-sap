@@ -80,20 +80,23 @@ else
 <tr>
 <td>
 	<?php
+	
 
 	$select = '-';
+	$row = '-';
 	$res = mysql_query("select * from productos order by codp");
 	if (mysql_num_rows($res)) {
 		$select = '<select name="p1" onchange="mostrarInfo(this.value)">';
 		$select .= '<option  selected style="width:150px"></option>';
-
-		while ($row = mysql_fetch_array($res))
-			$select .= "<option value='$row[codp]'>$row[codp]</option>";
-
+		
+		while ($row = mysql_fetch_array($res)){
+			$select .= "<option value='$row[0]'>$row[0]</option>";
+}
 		$select .= '</select>';
 	}
 
-	echo $select;
+	echo $select;	
+	
 
 	?>
 	</td>
@@ -121,7 +124,7 @@ else
 	?>
 	</td>
 	<td>
-	<div id="datos1"></div></td>
+	<div id="datos1"><?php echo $row[1] ?></div></td>
 	</tr>
 	<tr>
 <td>

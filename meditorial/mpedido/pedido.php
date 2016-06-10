@@ -57,14 +57,15 @@
 	echo '<td>Total de un producto</td>';
 	echo '</tr>';
      $res = mysql_query("select * from productos");
+     echo 'hola';
 	if (mysql_num_rows($res)) {
 	
 		
 		while ($row = mysql_fetch_array($res))   {
 		    $c=0;
 			echo '<tr>';
-			echo '<td>'.$row['codp'].'</td>';
-			echo '<td>'.$row['detalle'].'</td>';
+			echo '<td>'$row['codp']'</td>';
+			echo '<td>'$row['detalle']'</td>';
 			echo '<td>'.$row['precioc'].'</td>';
 			$f= $row["precioc"]*30;
 			$j= $f/100;
